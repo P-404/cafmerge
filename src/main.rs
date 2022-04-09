@@ -10,7 +10,7 @@ use std::process;
 use crate::git::GitResult;
 use crate::utils::handle_err;
 
-pub const CAF_BASE_URL: &str = "https://source.codeaurora.org/quic/la/";
+pub const CAF_BASE_URL: &str = "https://git.codelinaro.org/clo/la/";
 
 fn main() {
     let matches = App::new(format!("{}", "cafmerge".bold().yellow()))
